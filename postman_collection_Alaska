@@ -1,0 +1,567 @@
+{
+	"info": {
+		"_postman_id": "56c5d47e-f94d-4d53-9dae-daf8cdb39d26",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22872554"
+	},
+	"item": [
+		{
+			"name": "POLAR_Oleg_1",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"bear_type\":\"POLAR\",\"bear_name\":\"oleg\",\"bear_age\":1}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.40.150:6028/bear",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"40",
+						"150"
+					],
+					"port": "6028",
+					"path": [
+						"bear"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BROWN_Karl_100",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"bear_type\":\"BROWN\",\"bear_name\":\"karl\",\"bear_age\":100}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.40.150:6028/bear",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"40",
+						"150"
+					],
+					"port": "6028",
+					"path": [
+						"bear"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BLACK_Zina_101",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"bear_type\":\"BLACK\",\"bear_name\":\"zina\",\"bear_age\":101}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.40.150:6028/bear",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"40",
+						"150"
+					],
+					"port": "6028",
+					"path": [
+						"bear"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GUMMY_Ted_-1",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"bear_type\":\"GUMMY\",\"bear_name\":\"ted\",\"bear_age\":-1}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.40.150:6028/bear",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"40",
+						"150"
+					],
+					"port": "6028",
+					"path": [
+						"bear"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "all_bears",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.40.150:6028/bear",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"40",
+						"150"
+					],
+					"port": "6028",
+					"path": [
+						"bear"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POLAR_long_name",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"bear_type\":\"POLAR\",\"bear_name\":\"very_very1very***longnameforabearisitpossibleornot\",\"bear_age\":1}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.40.150:6028/bear/1",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"40",
+						"150"
+					],
+					"port": "6028",
+					"path": [
+						"bear",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BROWN_type",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"bear_type\":\"POLAR\",\"bear_name\":\"karl\",\"bear_age\":100}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.40.150:6028/bear/2",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"40",
+						"150"
+					],
+					"port": "6028",
+					"path": [
+						"bear",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BLACK_age",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"bear_type\":\"BLACK\",\"bear_name\":\"zina\",\"bear_age\":25.5}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.40.150:6028/bear/3",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"40",
+						"150"
+					],
+					"port": "6028",
+					"path": [
+						"bear",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GUMMY_type_name_age",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"bear_type\":\"BLACK\",\"bear_name\":\"georgy\",\"bear_age\":5}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.40.150:6028/bear/4",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"40",
+						"150"
+					],
+					"port": "6028",
+					"path": [
+						"bear",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POLAR_long_name",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.40.150:6028/bear/1",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"40",
+						"150"
+					],
+					"port": "6028",
+					"path": [
+						"bear",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GUMMY_type_name_age",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.40.150:6028/bear/4",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"40",
+						"150"
+					],
+					"port": "6028",
+					"path": [
+						"bear",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POLAR_long_name",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.40.150:6028/bear/1",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"40",
+						"150"
+					],
+					"port": "6028",
+					"path": [
+						"bear",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GUMMY_type_name_age",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.40.150:6028/bear/4",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"40",
+						"150"
+					],
+					"port": "6028",
+					"path": [
+						"bear",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "check_after_2_deleted_bears",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.40.150:6028/bear",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"40",
+						"150"
+					],
+					"port": "6028",
+					"path": [
+						"bear"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "all_bears",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.40.150:6028/bear",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"40",
+						"150"
+					],
+					"port": "6028",
+					"path": [
+						"bear"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "check_after_mass_deleting",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.40.150:6028/bear",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"40",
+						"150"
+					],
+					"port": "6028",
+					"path": [
+						"bear"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
+
